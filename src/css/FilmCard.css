@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');;
+
+.film-card {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #b1c2be;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 300px;
+  margin-bottom: 100px;
+  width: 400px;
+  font-family: Roboto , sans-serif;
+}
+
+.film-card div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.film-card h1 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.film-card h2 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.film-card h3 {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  height: 120px;
+}
+
+.film-card button {
+  font-size: 10px;
+  margin-bottom: 0px;
+  width: 40%;
+  align-self: center;
+  background-color: #c7cdcc;
+  border: none;
+  height: 30px;
+  border-radius: 15px;
+  color: rgb(58, 58, 58);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.50);
+}
