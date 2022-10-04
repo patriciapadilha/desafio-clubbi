@@ -3,17 +3,16 @@
 .film-card {
   display: flex;
   justify-content: center;
-  border: 1px solid #b1c2be;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  height: 300px;
-  margin-bottom: 100px;
-  width: 400px;
+  height: 430px;
+  margin-bottom: 30px;
+  width: 600px;
   font-family: Roboto , sans-serif;
 }
 
-.film-card div {
+.film-card-infos {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   padding: 10px;
 }
 
@@ -38,18 +37,84 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  height: 120px;
+  height: 150px;
+  padding: 10px
 }
 
-.film-card button {
-  font-size: 10px;
-  margin-bottom: 0px;
-  width: 40%;
-  align-self: center;
-  background-color: #c7cdcc;
-  border: none;
-  height: 30px;
-  border-radius: 15px;
-  color: rgb(58, 58, 58);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.50);
+.film-card p {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.people-card {
+  position: relative;
+  overflow-y: scroll left;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 250px;
+  /* background-color: blueviolet; */
+}
+
+.people-card h1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.nav-abas {
+  position: relative;
+  width: 100%;
+  /* border: 1px solid #b1c2be;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.nav-abas ul {
+  list-style: none;
+}
+
+.nav-abas ul li {
+  float: left;
+}
+
+.nav-abas label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: 137px;
+  margin: 0;
+  padding: 15px;
+  background-color: rgb(176, 176, 255);
+}
+
+.aba:checked ~ label {
+  background-color: aquamarine;
+}
+
+.aba {
+  display: none;
+}
+
+.content {
+  border-top: 5px solid aquamarine;
+  display: none;
+  position: absolute;
+  width: 350px;
+  left: 40px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content img {
+  width: 250px;
+}
+.content p {
+  width: 250px;
+}
+
+.aba:checked ~ .content {
+  display: flex;
+  width: 500px;
+  height: 350px;
 }

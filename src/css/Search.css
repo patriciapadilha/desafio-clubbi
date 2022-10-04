@@ -1,0 +1,53 @@
+.filters {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.filters input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgb(186, 185, 185);
+  border-radius: 5px;
+}
+
+.seach-rate p {
+  font-weight: 100;
+}
+
+.seach-rate input {
+  width: 40px;
+  text-align: center;
+  margin-left: 10px;
+  height: 25px;
+  border: 1px solid rgb(186, 185, 185);
+  border-radius: 5px;
+}
+
+.seach-rate select {
+  width: 85px;
+  color: gray;
+  text-align: center;
+  margin-left: 10px;
+  height: 30px;
+  border: 1px solid rgb(186, 185, 185);
+  border-radius: 5px;
+}
+
+.filters button {
+  margin: 10px;
+  background-color: rgb(176, 176, 255);
+  border: none;
+  width: 65px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+

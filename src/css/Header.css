@@ -1,0 +1,11 @@
+.header {
+  height: 150px;
+  background-color: aquamarine;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(138, 43, 226, 0.5);
+  font-size: 35px;
+}

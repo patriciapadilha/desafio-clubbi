@@ -1,8 +1,11 @@
 import React from 'react';
+import '../css/Header.css';
 
 function Header() {
   return (
-    <h1>Header</h1>
+    <section className='header'>
+      <h1>Studio Ghibli - Films</h1>
+    </section>
   )
 
 }
