@@ -45,11 +45,13 @@ function Search() {
     <section className='filters'>
       <label>
         <input
+          data-testid="input-seach-by-title"
           type="text"
           placeholder='Seach by title ...'
           onChange={ (event) => setSearchByFilmTitle(event.target.value) }/>
       </label>
       <button
+        data-testId="button-seach-by-title"
         onClick={ filter }
       >
         Buscar
@@ -57,7 +59,7 @@ function Search() {
       <label htmlFor='rate-input' className='seach-rate'>
         <p>Search by Rate</p>
         <select
-          data-testid="comparison-filter"
+          data-testid="comparation-filter"
           onChange={ (event) => setComparation(event.target.value) }
         >
           <option value='maior'>maior que</option>
@@ -65,6 +67,7 @@ function Search() {
           <option value='igual'>igual a</option>
         </select>
         <input
+          data-testid="rate-input"
           type="number"
           placeholder='0'
           onChange={ (event) => setSeachByRate(event.target.value) }
@@ -72,11 +75,13 @@ function Search() {
         
       </label>
       <button
+        data-testid="search-rate-button"
         onClick={ filterByRate }
       >
         Buscar
       </button>
       <button
+        data-testId="button-remove-filter"
         onClick={ removeFilter }
       >
         All Movies

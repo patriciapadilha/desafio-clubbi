@@ -18,7 +18,7 @@ function Results() {
   }, []);
 
   return (
-    <section className='main-results'>
+    <section className='main-results' data-testid="movie-card">
       { console.log(filterFilms)}
       {filterFilms && filterFilms.map((film) => (
           <FilmCard
