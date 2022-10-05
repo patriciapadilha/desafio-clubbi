@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.filters div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filters label {
   display: flex;
   align-items: center;
@@ -49,5 +55,34 @@
   height: 30px;
   border-radius: 5px;
   color: white;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+  .filters {
+    width: 100vw;
+    height: 10em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .filters label {
+    margin-left: 10px;
+  }
+  
+  .filters input {
+    width: 15em;
+  }
+  
+  .seach-rate input {
+    width: 40px;
+    text-align: center;
+    margin-left: 10px;
+    height: 25px;
+    border: 1px solid rgb(186, 185, 185);
+    border-radius: 5px;
+  }
 }
 

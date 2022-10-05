@@ -128,3 +128,62 @@
   width: 500px;
   height: 350px;
 }
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+  .film-card {
+    margin-bottom: 0;
+    margin: auto;
+    align-content: center;
+  }
+
+  .film-card h2 {
+    font-size: 10px;
+  }
+  
+  .people-card {
+    width: 11em;
+  }
+  
+  .people-card h1 {
+    font-size: 12px;
+  }
+  
+  .nav-abas {
+    width: 100%;
+    margin-bottom: 2em;
+    align-content: center;
+    align-items: center;
+    left: 5em;
+  }
+  
+  .nav-abas label {
+    width: 9em;
+  }
+  
+  .content {
+    width: 90%;
+  }
+  
+  .content img {
+    width: 12em;
+  }
+
+  .content p {
+    width: 10em;
+  }
+  
+  .aba:checked ~ .content {
+    display: flex;
+    align-content: center;
+    width: 22.5em;
+    height: 20em;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-abas {
+    left: 2em;
+  }
+}
