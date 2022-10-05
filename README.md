@@ -65,3 +65,5 @@ Caso não saiba fazer testes não se preocupe.
 - Testes com Cypress;
 
 - Containerização com Docker;
+
+- [Deploy com o Vercel](https://desafio-clubbi-patriciapadilha.vercel.app/)
