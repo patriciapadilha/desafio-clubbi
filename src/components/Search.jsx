@@ -54,7 +54,7 @@ function Search() {
         data-testId="button-seach-by-title"
         onClick={ filter }
       >
-        Buscar
+        Search
       </button>
       <label htmlFor='rate-input' className='seach-rate'>
         <p>Search by Rate</p>
@@ -78,7 +78,7 @@ function Search() {
         data-testid="search-rate-button"
         onClick={ filterByRate }
       >
-        Buscar
+        Search
       </button>
       <button
         data-testId="button-remove-filter"

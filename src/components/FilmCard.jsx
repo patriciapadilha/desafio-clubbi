@@ -43,7 +43,7 @@ function FilmCard({ id, title, originalTitle, description, rtScore, image , dire
         <ul>
           <li>
             <input readOnly type="radio" checked name={`aba-${ id }`} className="aba" id={ `geral-${ id }` }/>
-            <label htmlFor={`geral-${ id }`}>Geral</label>
+            <label htmlFor={`geral-${ id }`}>General</label>
             <div className="content">
               <img src={ image } alt={ title } />
               <div className="film-card-infos">
