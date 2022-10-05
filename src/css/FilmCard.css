@@ -183,7 +183,60 @@
 }
 
 @media (max-width: 600px) {
+  .film-card {
+    margin-bottom: 0;
+    margin: auto;
+    align-content: center;
+    height: 22em;
+  }
+
   .nav-abas {
     left: 2em;
+    margin-bottom: 0;
+  }
+
+  .nav-abas label {
+    width: 7.2em;
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+
+  .aba:hover ~ label {
+    letter-spacing: 4px;
+    font-weight: 700;
+  }
+
+  .content img {
+    width: 9em;
+  }
+
+  .film-card h1 {
+    font-size: 12px;
+    margin-bottom: 1px;
+  }
+
+  .film-card h2 {
+    font-size: 9px;
+    margin-bottom: 1px;
+  }
+
+  .film-card p {
+    font-size: 9px;
+    margin-bottom: 1px;
+    text-align: center;
+    margin-left: 2em;
+  }
+  
+  .people-card {
+    width: 9em;
+  }
+ 
+  .content p {
+    width: 9em;
+  }
+  
+  .aba:checked ~ .content {
+    width: 17.7em;
+    height: 16em;
   }
 }

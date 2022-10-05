@@ -86,3 +86,8 @@
   }
 }
 
+@media (max-width: 600px) {
+  .filters p {
+    font-size: 10px;
+  }
+}
