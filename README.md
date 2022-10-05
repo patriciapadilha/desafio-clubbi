@@ -39,3 +39,29 @@ Caso não saiba fazer testes não se preocupe.
 
 ---
 > Bom desenvolvimento!
+
+---
+
+## Notas da candidata:
+
+### Rodando o Docker:
+`docker-compose up -d`
+
+
+### Rodando os testes:
+* Modo it: `npm run test:open`
+
+* Modo headless: `npm run test`
+
+### Sobre o desenvolvimento:
+ Escolha das ferramentas: 
+
+- React com gerenciamento de estado utilizando contextApi;
+
+- Estilização com css puro;
+
+- Fetch da API com axios;
+
+- Testes com Cypress;
+
+- Containerização com Docker;
