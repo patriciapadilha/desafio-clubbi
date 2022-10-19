@@ -16,11 +16,9 @@ function Search() {
   
  
   const filter = () => {
-    console.log(allFilms);
     const results = allFilms.filter(
       (el) => el.title.toLowerCase().includes(searchByFilmTitle),
     );
-    console.log(results);
     setFilterFilms(results);
   }
 
